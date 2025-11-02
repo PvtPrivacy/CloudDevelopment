@@ -1,4 +1,4 @@
-## miten Jekyll sivustoa voisi automatisoida käyttäen GitHub Actions-toimintoja. Vastaa myös millaisilla kehitystyökaluilla ja -tekniikoilla saataisiin CI/CD-putkisto rakennettua web-sovellukselle. Tekstimäärä noin 150 sanaa.
+# miten Jekyll sivustoa voisi automatisoida käyttäen GitHub Actions-toimintoja. Vastaa myös millaisilla kehitystyökaluilla ja -tekniikoilla saataisiin CI/CD-putkisto rakennettua web-sovellukselle. Tekstimäärä noin 150 sanaa.
 
 Jekyll sivuston automatisointi voidaan hyödyntää käyttämällä GitHub actions toimintoja. Kun kehittäjä tekee muutoksia sivuston koodiin ja sitten siirtää ne GitHubiin, Actions käynnistyy välittömästi ja alkaa suorittamaan kaikki tarvittavat askeleet:
 - Hakee koodin
