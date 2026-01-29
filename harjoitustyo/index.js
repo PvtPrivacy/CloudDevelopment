@@ -19,7 +19,7 @@ import {
   onSnapshot
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-import * as firebaseui from "https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js";
+import { AuthUI } from "https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js";
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
@@ -68,7 +68,7 @@ async function main() {
       },
     },
   };
-  const ui = new firebaseui.auth.AuthUI(auth);
+  const ui = new AuthUI(auth);
 // Called when the user clicks the RSVP button
 startRsvpButton.addEventListener('click', () => {
   if (auth.currentUser) {
