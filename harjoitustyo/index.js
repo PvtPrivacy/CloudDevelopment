@@ -1,5 +1,6 @@
 // Import stylesheets
 import './style.css';
+<script type="module" src="index.js"></script>
 // Firebase App (the core Firebase SDK) is always required
 import { initializeApp } from 'firebase/app';
 
@@ -10,7 +11,6 @@ import {
   signOut,
   onAuthStateChanged
 } from 'firebase/auth';
-// } from 'firebase/auth';
 
 import {
   getFirestore,
@@ -20,19 +20,8 @@ import {
   orderBy,
   onSnapshot
 } from 'firebase/firestore';
-// } from 'firebase/firestore';
 
-//https://www.gstatic.com/firebasejs/12.8.0/firebase-auth.js
-//https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js
-//https://www.gstatic.com/firebasejs/12.8.0/firebaseui.js
-//https://www.gstatic.com/firebasejs/12.8.0/firebase-SERVICE.js
-
-
-
-import * as firebaseui from 'firebaseui.js
-';
-// import * as firebaseui from 'firebaseui';
-
+import * as firebaseui from 'firebaseui';
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
@@ -172,8 +161,3 @@ onAuthStateChanged(auth, user => {
 });
 }}
 main();
-
-
-
-
-
