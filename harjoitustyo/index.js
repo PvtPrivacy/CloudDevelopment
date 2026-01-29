@@ -4,10 +4,6 @@ import './style.css';
 import { initializeApp } from 'firebase/app';
 
 // Add the Firebase products and methods that you want to use
-
-<script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script
-
 import {
   getAuth,
   EmailAuthProvider,
@@ -164,5 +160,6 @@ onAuthStateChanged(auth, user => {
 });
 }}
 main();
+
 
 
