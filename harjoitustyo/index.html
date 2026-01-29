@@ -1,0 +1,61 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Firebase Meetup</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  
+  <div id="app">
+    <img
+      src="https://images.cdn.yle.fi/image/upload/c_crop,h_3635,w_6476,x_0,y_0/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/v1645340479/39-9178226211e7205b28d"
+    />
+
+    <section id="event-details-container">
+      <h1>Suomi teki jättitempun liigassa</h1>
+
+      <p><i class="material-icons">calendar_today</i> 12. Helmikuuta</p>
+      <p><i class="material-icons">sports_tennis</i>  Urheilu</p>
+      <button id="startRsvp">Kirjaudu Sisään</button>
+    </section>
+
+    <hr />
+
+    <section id="firebaseui-auth-container"></section>
+
+    <section id="description-container">
+      <h2>Mitä olet mieltä uutisesta?</h2>
+      <p>Kirjaudu sisään ja kommentoi!</p>
+    </section>
+
+    <section id="guestbook-container">
+    <h2>Keskustelu</h2>
+
+    <form id="leave-message">
+      <label>Jätä kommentia!: </label>
+      <input type="text" id="message">
+      <button type="submit">
+        <i class="material-icons">send</i>
+        <span>Lähetä</span>
+      </button>
+    </form> 
+    
+    <section id="guestbook"></section>
+
+    </section>
+  </div>
+  
+</body>
