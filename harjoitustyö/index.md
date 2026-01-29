@@ -1,9 +1,11 @@
 # Idea
 Päätin keksiä foorumin kaltainen sivusto, johon käyttäjä kirjautuu omilla tunnuksilla ja pysty näkemään ja jättämään kommenteja. Sivustossa näkyy lyhyt uutinen Suomen liigasta mihin ihmset ovat kommentoineet.
+
 <img width="1178" height="796" alt="image" src="https://github.com/user-attachments/assets/07cedea4-834e-4d3b-8030-a21cefbcc5de" />
 
 # Visuaallisuus ja selkeys
 Sivusto noudattaa selkeyden ja saavutettavuuden periaatetta.
+
 <img width="859" height="725" alt="image" src="https://github.com/user-attachments/assets/e832f592-473f-4771-b432-9d43a86fabba" />
 
 # Responsiivisuus
