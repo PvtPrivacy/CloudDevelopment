@@ -8,6 +8,3 @@ Täältä löytyvät tehtäväpalautukset:
 - [Viikko 5](./vko5/vko5.md)
 - [Harjoitustyö raportti](./raportti/index.md)
 - [Harjoitustyö](harjoitustyö/index.html)
-
-
-raportti/index.md
