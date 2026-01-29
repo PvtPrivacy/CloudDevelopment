@@ -9,7 +9,9 @@ import {
   EmailAuthProvider,
   signOut,
   onAuthStateChanged
-} from 'firebase/auth';
+} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-auth.js
+';
+// } from 'firebase/auth';
 
 import {
   getFirestore,
@@ -18,9 +20,21 @@ import {
   query,
   orderBy,
   onSnapshot
-} from 'firebase/firestore';
+} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js
+';
+// } from 'firebase/firestore';
 
-import * as firebaseui from 'firebaseui';
+//https://www.gstatic.com/firebasejs/12.8.0/firebase-auth.js
+//https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js
+//https://www.gstatic.com/firebasejs/12.8.0/firebaseui.js
+//https://www.gstatic.com/firebasejs/12.8.0/firebase-SERVICE.js
+
+
+
+import * as firebaseui from 'https://www.gstatic.com/firebasejs/12.8.0/firebaseui.js
+';
+// import * as firebaseui from 'firebaseui';
+
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
