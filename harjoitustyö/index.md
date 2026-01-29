@@ -1,8 +1,11 @@
 # Idea
 Päätin keksiä foorumin kaltainen sivusto, johon käyttäjä kirjautuu omilla tunnuksilla ja pysty näkemään ja jättämään kommenteja. Sivustossa näkyy lyhyt uutinen Suomen liigasta mihin ihmset ovat kommentoineet.
+<img width="1178" height="796" alt="image" src="https://github.com/user-attachments/assets/07cedea4-834e-4d3b-8030-a21cefbcc5de" />
 
 # Visuaallisuus ja selkeys
-Sivusto 
+Sivusto noudattaa selkeyden ja saavutettavuuden periaatetta.
+<img width="859" height="725" alt="image" src="https://github.com/user-attachments/assets/e832f592-473f-4771-b432-9d43a86fabba" />
+
 # Responsiivisuus
 ## Desktop 
 Sivusto toimii hyvin ja kaikki elementit latautuvat ja asettuvat oikein. Käyttäjän näkökulmasta sivusto lataaminen menee sujuvasti ilman mitään konkreettisia ongelmia.
@@ -29,24 +32,3 @@ Sivusto latautuu erinomaisesti. Sivusto voidaan vielä optimoida, mutta käyttä
 ### **Mobile**
 Sivusto latautuu kohtuullisesti, mutta sivusto voisi vielä optimoida. Ongelma johtuu suurin osin javascriptin käytöstä, johon sitä pitäsi katsella uudelleen. 
 <img width="985" height="758" alt="image" src="https://github.com/user-attachments/assets/2b866554-fa7f-4ba0-81cc-7b8024276166" />
-
-
-<img width="1178" height="796" alt="image" src="https://github.com/user-attachments/assets/07cedea4-834e-4d3b-8030-a21cefbcc5de" />
-
-
-arvioinnissa käytetyt kriteerit:
-
-    idea = jokin käytännöllinen sivusto, jossa on hyödyllistä tietoa
-    sisältö = sivustolla on toimintoja, joilla voidaan tietoa tutkia
-    visuaalisuus ja selkeys = Nielsen heuristiikkojen mukainen käytettävyys
-    sivuilla on samanlainen navigointi ja ulkoasu, joka täyttää WCAG eli Web Content Accessibility Guidelines -ohjeistuksen
-    responsiivisuus = toimivuus eri kokoisilla päätelaitteilla (testaa ja tee lyhyt raportti)
-    autentikoinnin (Firebase), tietokannan (Firestore) ja kolmannen osapuolien palveluiden (esimerkiksi REST-rajapinnan yli) käyttö
-    toimivuus uusimmilla selaimilla (testaa ja tee lyhyt raportti)
-    sivujen latautumisaika kohtuullinen (testaa ja tee lyhyt raportti)
-
-
-
-
-Keksin sivusto, joka toimii ns. jääkiekon joukkueen foorumina eli faneille. Sivustossa on muutamat toiminnat jotka auttavat yhdistää faneja ympäri maatta. Heti ensimmäisessä sivustossa näkyy uutinen, johon käyttäjät voivat jättää kommentia. Jotta käyttäjät voivat jättää kommentia ja nähdä muita kommenteja heidän täytyy rekisteriöidä ja kirjautua sivustoon. Tähän on käytetty firebase ja firestore. 
-
