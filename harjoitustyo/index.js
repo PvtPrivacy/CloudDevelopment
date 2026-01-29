@@ -9,7 +9,7 @@ import {
   EmailAuthProvider,
   signOut,
   onAuthStateChanged
-} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-auth.js
+} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase/auth.js
 ';
 // } from 'firebase/auth';
 
@@ -20,7 +20,7 @@ import {
   query,
   orderBy,
   onSnapshot
-} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js
+} from 'https://www.gstatic.com/firebasejs/12.8.0/firebase/firestore.js
 ';
 // } from 'firebase/firestore';
 
@@ -174,6 +174,7 @@ onAuthStateChanged(auth, user => {
 });
 }}
 main();
+
 
 
 
