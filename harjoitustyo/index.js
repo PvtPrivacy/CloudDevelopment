@@ -16,7 +16,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
-const ui = new AuthUI(auth);
+const ui = new firebaseui.auth.AuthUI(auth);
 
 // 2. Elements
 const startRsvpButton = document.getElementById('startRsvp');
@@ -93,4 +93,5 @@ form.addEventListener('submit', async (e) => {
     } catch (error) {
         console.error("Error adding document: ", error);
     }
+
 });
