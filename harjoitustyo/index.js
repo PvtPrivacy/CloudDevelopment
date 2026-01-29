@@ -1,16 +1,16 @@
+console.log("JS is running");
 // Import stylesheets
 import './style.css';
 <script type="module" src="index.js"></script>
 // Firebase App (the core Firebase SDK) is always required
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 
-// Add the Firebase products and methods that you want to use
 import {
   getAuth,
   EmailAuthProvider,
   signOut,
   onAuthStateChanged
-} from 'firebase/auth';
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 import {
   getFirestore,
@@ -19,9 +19,9 @@ import {
   query,
   orderBy,
   onSnapshot
-} from 'firebase/firestore';
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-import * as firebaseui from 'firebaseui';
+import * as firebaseui from "https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js";
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
