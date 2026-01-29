@@ -4,7 +4,7 @@ Luettelo
 - [Viikko 3](./vko3/index.html)
 - [Viikko 4](./vko4/index.html)
 - [Viikko 5](./vko5/vko5.md)
-- [Viikko 6]
+- [Takaisin pääluetteloon](./index.md)
 - [Harjoitustyö](harjoitustyö/index.html)
 
 # Idea
