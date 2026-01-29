@@ -1,6 +1,7 @@
 # Luettelo
 - [Takaisin pääluetteloon](https://pvtprivacy.github.io/CloudDevelopment/index.md)
 - [Harjoitustyö](harjoitustyö/index.html)
+- https://pvtprivacy.github.io/CloudDevelopment/harjoitusty%C3%B6/index.html 
 
 # Idea
 Päätin keksiä foorumin kaltainen sivusto, johon käyttäjä kirjautuu omilla tunnuksilla ja pysty näkemään ja jättämään kommenteja. Sivustossa näkyy lyhyt uutinen Suomen liigasta mihin ihmset ovat kommentoineet.
