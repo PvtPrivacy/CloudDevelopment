@@ -1,8 +1,6 @@
 console.log("JS is running");
-// Import stylesheets
-import './style.css';
-<script type="module" src="./index.js"></script>
-// Firebase App (the core Firebase SDK) is always required
+
+// Firebase imports (CDN)
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 
 import {
@@ -161,4 +159,3 @@ onAuthStateChanged(auth, user => {
 });
 }}
 main();
-
