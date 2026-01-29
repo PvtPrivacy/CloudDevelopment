@@ -30,7 +30,10 @@ Ei minkälaisia ongelmia havaittavissa. Ei mitään eroavaisuuksia muiden selaim
 
 ### **Desktop**
 Sivusto latautuu erinomaisesti. Sivusto voidaan vielä optimoida, mutta käyttäjän kokemusta sillä ei ole merkittävä merkitystä.
+
 <img width="962" height="766" alt="image" src="https://github.com/user-attachments/assets/b4c648ee-0cdd-4378-8a5c-fa01cc48ca26"/>
+
 ### **Mobile**
 Sivusto latautuu kohtuullisesti, mutta sivusto voisi vielä optimoida. Ongelma johtuu suurin osin javascriptin käytöstä, johon sitä pitäsi katsella uudelleen. 
+
 <img width="985" height="758" alt="image" src="https://github.com/user-attachments/assets/2b866554-fa7f-4ba0-81cc-7b8024276166" />
