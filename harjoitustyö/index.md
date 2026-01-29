@@ -1,5 +1,5 @@
 Luettelo
-- [Takaisin pääluetteloon](./index.md)
+- [Takaisin pääluetteloon](https://pvtprivacy.github.io/CloudDevelopment/index.md)
 - [Harjoitustyö](harjoitustyö/index.html)
 
 # Idea
